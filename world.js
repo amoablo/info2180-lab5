@@ -15,14 +15,11 @@ window.onload = function(){
     });
 
 function getMsg() {
-    console.log("0")
     if (httpRequest.readyState == XMLHttpRequest.DONE)
         if (httpRequest.status == 200) {
             var response = httpRequest.responseText;
-            console.log("1");
             var space = document.getElementById("result");
             space.innerHTML=response;
-            console.log("2");
      } 
     } 
 }
