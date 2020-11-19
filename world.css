@@ -1,1 +1,64 @@
 /* Add your own styles */
+
+header{
+    background-color: grey;
+    padding: 100px;
+    color: white;
+}
+
+#controls{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    padding: 50px;
+    align-items: center;
+}
+
+#lookup{
+    background-color: limegreen;
+    color: white;
+    width: 100px;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+#city{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+#btns{
+    display: flex;
+    float: right;
+    margin: 5px;
+}
+
+#country{
+    width: 300px;
+}
+
+table{
+    margin: 10px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
+
